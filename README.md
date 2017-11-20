@@ -42,10 +42,20 @@ Milestone2:
 
 ## Files needed
 
-
+'languageMatch.h' as public interface for languageMatch function
+'languageMatch.cpp' as implentation of trigram and similarity
+'main.cpp' to test languageMatch behavior
 
 ## Libraries needed
 
-
+- vector
+- string
+- iostream
+- fstream
 
 ## Compile script
+
+- Will need to compile languageMatch.cpp and main.cpp
+- Flag to skip compilation of main.cpp and produce an object file.
+    milestone1 - create an executable called frequencies
+    milestone2 - create an executable called language
